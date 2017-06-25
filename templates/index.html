@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+</head>
+<body>
+{% ifequal success 0 %}
+    <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+    <input type="file" name="csv_file" />
+    <input type="submit" value="Upload" />
+    </form>
+{% else %}
+    {% ifequal success 1 %}
+    <h1>Successfully completed processing file. You can download it from the link below.</h1>
+    <a href ="/foo">
+
+        <input type="button" value ="download"></a>
+    </form>
+    {% endifequal %}
+    {% ifequal success 2 %}
+    <h1> Mission Successful......</h1>
+    {% endifequal %}
+{% endifequal %}
+</body>
+</html>

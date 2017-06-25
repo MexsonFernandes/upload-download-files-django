@@ -1,0 +1,62 @@
+tieupwith.me
+stayconnectedwith.me
+makestartupwith.me
+cofounderwith.me
+
+
+import os
+os.system('rscript randomForest.R')
+                 
+
+
+
+reference
+dataset
+home
+about us
+help
+
+
+First take R
+use rscript to run .R file command prompt
+ -use excel to draw data
+ -use rattle directly
+ -use command prompt
+
+
+prediction
+use file with no target
+
+
+
+
+
+
+
+
+
+
+
+
+
+Model with 4 data
+
+
+
+
+correl = R
+R^2
+Error = average mean abs(actual -prediction) =AVERAGE(F2:F2459) and av
+accuracy
+if (a1-b2 <=1 ,1,0)
+
+
+
+
+
+
+random print 100 value
+print random values to a file
+browse a file and convert all data to upper case
+
+
